@@ -12,7 +12,7 @@ $featured_page_3 = get_post( $featured_page_3_id );
             ( $featured_page_2_id && $featured_page_2 && $featured_page_2->post_status === 'publish' ) ||
             ( $featured_page_3_id && $featured_page_3 && $featured_page_3->post_status === 'publish' ) ) : ?>
     <section class="wp-bp-services-section bg-white">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <?php if ( $featured_page_1_id && $featured_page_1 && $featured_page_1->post_status === 'publish' ) : ?>
                     <div class="col-md-4 mb-3 mb-md-0">

@@ -159,7 +159,7 @@ if ( ! function_exists( 'wp_bootstrap_4_woocommerce_wrapper_before' ) ) {
 	 */
 	function wp_bootstrap_4_woocommerce_wrapper_before() {
 		?>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<?php if ( get_theme_mod( 'default_sidebar_position', 'right' ) === 'no' ) : ?>
 					<div class="col-md-12 wp-bp-content-width">

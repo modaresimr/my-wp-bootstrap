@@ -21,7 +21,7 @@ get_header(); ?>
 <?php if ( get_theme_mod( 'blog_display_cover_section', 1 ) ) : ?>
 	<?php if( get_theme_mod( 'blog_cover_title' ) || get_theme_mod( 'blog_cover_lead' ) || get_theme_mod( 'blog_cover_btn_text' ) ) : ?>
 		<section class="jumbotron bg-white text-center wp-bs-4-jumbotron border-bottom">
-			<div class="container">
+			<div class="container-fluid">
 
 				<h1 class="jumbotron-heading"><?php echo wp_kses_post( get_theme_mod( 'blog_cover_title' ) ); ?></h1>
 				<p class="lead text-muted"><?php echo wp_kses_post( get_theme_mod( 'blog_cover_lead' ) ); ?></p>

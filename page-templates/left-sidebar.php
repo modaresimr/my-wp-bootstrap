@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 wp-bp-sidebar-width">
                 <?php get_sidebar(); ?>
