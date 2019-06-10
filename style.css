@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 My WP Bootstrap 4 is based on bootstrap-wp https://bootstrap-wp.com, (C) 2012-2017 Automattic, Inc.
 bootstrap-wp is distributed under the terms of the GNU GPL v3 or later.
 */
-body { background-color: #f8f9fa; }
+body { background-color: #f8f9fa;     text-align: justify;}
 
 hr { background-color: #ccc; border: 0; height: 1px; margin-bottom: 1.5em; }
 
