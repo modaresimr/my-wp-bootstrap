@@ -28,6 +28,7 @@ add_action( 'tgmpa_register', 'wp_bootstrap_4_register_required_plugins' );
  * Register the required plugins for this theme.
  */
 function wp_bootstrap_4_register_required_plugins() {
+	return;
 	$plugins = array(
 		array(
 			'name'      => 'Kirki',
