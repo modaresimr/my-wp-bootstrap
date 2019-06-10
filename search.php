@@ -13,7 +13,7 @@ get_header(); ?>
 	$default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
 ?>
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 
 			<?php if ( $default_sidebar_position === 'no' ) : ?>
