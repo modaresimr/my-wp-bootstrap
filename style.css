@@ -438,7 +438,3 @@ a.badge {
 .bd-callout-danger h4 {
   color: #d9534f
 }
-/* Fixed select2 nesting*/
-.select2-results__options--nested {
-  padding-left: 20px;
-}

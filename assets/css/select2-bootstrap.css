@@ -834,3 +834,8 @@
     display: inline-block;
   }
 }
+
+/* Fixed select2 nesting*/
+.select2-results__options--nested {
+  padding-left: 20px;
+}
