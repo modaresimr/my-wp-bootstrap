@@ -44,7 +44,7 @@ if ( ! function_exists( 'wp_bootstrap_4_header_style' ) ) :
 	 * @see wp_bootstrap_4_custom_header_setup().
 	 */
 	function wp_bootstrap_4_header_style() {
-
+		/*
 		if ( get_header_image() ) : ?>
 			<style type="text/css">
 				.wb-bp-front-page .wp-bs-4-jumbotron {
@@ -56,7 +56,7 @@ if ( ! function_exists( 'wp_bootstrap_4_header_style' ) ) :
 			</style>
 		<?php
 		endif;
-
+		*/
 		$header_text_color = get_header_textcolor();
 
 		/*

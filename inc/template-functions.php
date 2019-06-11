@@ -22,7 +22,7 @@ function wp_bootstrap_4_body_classes( $classes ) {
 	}
 
 	if ( get_option( 'show_on_front' ) === 'page' && is_front_page() ) {
-		$classes[] = 'wb-bp-front-page';
+	//	$classes[] = 'wb-bp-front-page';
 	}
 
 	return $classes;
