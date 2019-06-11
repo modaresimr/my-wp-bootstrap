@@ -4,7 +4,7 @@ Theme URI: https://github.com/modaresimr/my-wp-bootstrap
 Author: Ali Modaresi
 Author URI: https://github.com/modaresimr/my-wp-bootstrap
 Description: "My WP Bootstrap 4" is a simple & easy to use WordPress theme. It is based on world's most popular framework for responsive websites, Twitter Bootstrap 4. "My WP Bootstrap 4" is a perfect combination of Bootstrap 4 and WordPress. It is fast and light-weight with around 20 kb style.css. It is also search engine friendly. It has a built-in slider for featured posts on blog's home page. It supports all major & popular WordPress plugins like Jetpack, Contact Form 7, Elementor, Beaver Builder, SiteOrigin Page Builder etc. 
-Version: 1.0.14
+Version: 1.0.15
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 Text Domain: my-wp-bootstrap-4
@@ -22,6 +22,9 @@ body {
   text-align: justify;
   font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
 
+}
+.container-fluid{/*test! it should change with container*/
+  max-width: 1300px !important;
 }
 
 hr { background-color: #ccc; border: 0; height: 1px; margin-bottom: 1.5em; }
