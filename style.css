@@ -443,3 +443,32 @@ a.badge {
 .bd-callout-danger h4 {
   color: #d9534f
 }
+
+.select2-level1{
+  font-size: .9em;
+  font-weight: bold;
+}
+.select2-level2{
+  padding-left: 1.5em;
+  font-size: .9em;
+}
+
+.select2-level3{
+  padding-left: 3em;
+  font-size: .8em;
+}
+.select2-level4{
+  padding-left: 4.5em;
+  font-size: .7em;
+}
+/*
+.select2-level1::before {
+  content: "";
+}
+.select2-level2::before {
+  content: "  — ";
+}
+.select2-level3::before {
+  content: "  — — ";
+}
+*/
