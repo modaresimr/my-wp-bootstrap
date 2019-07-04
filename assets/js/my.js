@@ -12,8 +12,7 @@ function matchStart(params, data) {
 	
 	if (removeSpaceAndUppercase(data.element.outerText).indexOf(removeSpaceAndUppercase(params.term.toUpperCase())) >= 0) 
 		  return data;
-	if(data.element.attributes['data-tokens']!=undefined)
-		if (removeSpaceAndUppercase(data.element.attributes['data-tokens'].textContent).indexOf(removeSpaceAndUppercase(params.term.toUpperCase())) >= 0) 
+	if(data.element.attributes['data-tokens']!=undefined && removeSpaceAndUppercase(data.element.attributes['data-tokens'].textContent).indexOf(removeSpaceAndUppercase(params.term.toUpperCase())) >= 0) 
 	  		return data;
 	return null;
   }
