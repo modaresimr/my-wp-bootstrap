@@ -475,3 +475,7 @@ a.badge {
   content: "  — — ";
 }
 */
+
+
+
+@media (min-width: 768px) { .hentry.card .card-body-archive.card-body { padding: 1.5rem }
