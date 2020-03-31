@@ -479,3 +479,13 @@ a.badge {
 
 
 @media (min-width: 768px) { .hentry.card .card-body-archive.card-body { padding: 1.5rem }
+
+.site-header {
+    
+    background-image: url(assets/images/page-title-background.jpg);
+}
+
+
+
+
+
